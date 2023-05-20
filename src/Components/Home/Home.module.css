@@ -1,0 +1,23 @@
+.img{
+    width: 15%;
+}
+.icon{
+   position: relative;
+}
+.icon::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    top: 50%;
+    background-color: white;
+}
+.icon::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    top: 50%;
+    right: 100%;
+    background-color: white;
+}
